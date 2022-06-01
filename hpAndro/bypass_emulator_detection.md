@@ -42,9 +42,9 @@ Java.perform(function () {
 Java.perform( function () {
     var String = Java.use("java.lang.String");
     var Build = Java.use("android.os.Build");
-    Build.HARDWARE.value = String.$new("anything");
-    Build.PRODUCT.value = String.$new("anything");
-    Build.BOARD.value = String.$new("anything");
+    Build.HARDWARE.value = String.$new("natsu");
+    Build.PRODUCT.value = String.$new("natsu");
+    Build.BOARD.value = String.$new("natsu");
 });
 ```
 
